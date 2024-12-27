@@ -1,7 +1,6 @@
 {
     "name": "jakiur/visualtovocal",
     "description": "This is a simple project to convert an image or pdf text into vocal",
-    "version": "1.0.0",
     "license": "MIT",
     "autoload": {
         "psr-4": {
