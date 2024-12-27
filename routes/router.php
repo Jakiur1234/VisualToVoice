@@ -10,6 +10,14 @@ class Route
         }
     }
 
+    public static function post( $route, $controller )
+    {
+        if( $_SERVER['REQUEST_METHOD'] === 'POST' && $_SERVER['REQUEST_URI'] === $route )
+        {
+            (new static)->callController( $controller );
+        }
+    }
+
     private function callController($data)
     {
         $controller = '';
