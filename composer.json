@@ -16,9 +16,5 @@
             "name": "Jakiur Rahman",
             "email": "70786208+Jakiur1234@users.noreply.github.com"
         }
-    ],
-    "require": {
-        "illuminate/view": "^11.36",
-        "illuminate/container": "^11.36"
-    }
+    ]
 }
